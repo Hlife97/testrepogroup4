@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.topBar {
+    background-color: aqua;
+    /* height: 50px; */
+    padding: 20px;
+    border-bottom: 1px solid #363636;
+}
+
+.words {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+}
+
+span {
+    background-color: #363636;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
